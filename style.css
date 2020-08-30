@@ -1,0 +1,130 @@
+.card {
+  width: 100%;
+  border: black;
+  border-width: 150px;
+  height: 80%;
+  font-size: 200%;
+  background-color: wheat;
+  padding-top: 3%;
+  float: left;
+  margin-top: 150;
+  margin-left: 100;
+  opacity: ;
+}
+h4 {
+  font-size: 220%;
+}
+.me {
+  padding: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: 150px;
+ ;
+  
+}
+
+body {
+  background-image: url(https://cdn.statically.io/img/codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg?f=webp&w=1440);
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-weight: 700;
+}
+.links {
+  padding-top: 100px;
+  text-align: center;
+}
+#container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.img-thumbnail{
+  border: solid 1px #3C5DA2;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+
+.mr-auto, .mx-auto {
+  margin-right: auto!important;
+}
+.d-block {
+  display: block!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.img-thumbnail {
+  border: solid 1px #3C5DA2;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 576px) {
+  .col-md-8 {
+    margin-top: -40px;
+  }
+
+  .navbar-brand {
+    margin: auto 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #column{
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  } 
+
+  #social{
+    margin-left: 0;
+  }
+  
+}
+
+@media only screen and (max-width: 400px){
+    main a{
+      font-size: 40px;
+    }
+
+    #main-content{
+      margin-bottom: 50px;
+    }
+}
